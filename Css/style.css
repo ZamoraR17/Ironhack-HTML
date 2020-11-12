@@ -1,0 +1,48 @@
+/* Text Styles */
+h1{
+    color: darkcyan;
+    font-size: 3.5em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2{color: darksalmon;
+
+}
+h3{color: dodgerblue;
+
+}
+h4{color: goldenrod;
+
+}
+
+P{
+    font-size: 21px;
+    line-height: 32px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 1em;
+}
+
+header{
+    background-color: lightblue;
+}
+
+
+/* Text styles end */
+
+/*
+div{
+    padding: 30px;
+}*/
