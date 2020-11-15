@@ -5,54 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robert's Page</title>
 
-    <!-- font -->
+    <!-- Link -->
+<!-- font -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">    
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+<!-- CSS -->
 <link rel="stylesheet" type="text/css" href="css/normalize.css">  
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- Javascript -->
+<script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin=“anonymous”></script>
+    <!-- Link -->
 
-    <style>
-        h1{color: midnightblue;}
-        h2 {color: palevioletred;}
-    </style>
+
 </head>
 <body>
 <!-- Header start -->
     <header>
-        <div><img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg"></div>
+        <div><img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header"></div>
         <div> 
             <ul>
-                <li>Features</li>
-                <li>Testimonials</li>
-                <li>Try</li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li><a href="#Newsletter">Try</a></li>
             </ul>
         </div>
     </header>
 <!-- Header end -->
 
+
+
 <!-- hero start -->
-    <section>
-        <h1 style="color: darkolivegreen;">Heading 1 text</h1>
+    <section id="hero">
+        <h1 style="color: rgb(221, 221, 221);">Heading 1 text</h1>
     </section>
 <!-- hero end -->
 
+
+
 <!-- features Start -->
-<section>
-    <h3>Features Title</h3>
-    <div> <!-- row -->
-        <div><!-- col -->
-            icon
-            <h4>text</h4>
+<section id="features">
+    <h3 class="color_headings">Features Title</h3>
+    <div class="row-features" style="color: darkslategrey;"> <!-- row -->
+        
+        <div class="col col-features"><!-- col -->
+            <i class="fas fa-balance-scale fa-4x"></i>
+            <h4>Well Balanced</h4>
         </div>
 
-        <div><!-- col -->
-            icon
-            <h4>text</h4>
+        <div class="col col-features"><!-- col -->
+            <i class="fab fa-btc fa-4x"></i>
+            <h4>Accept Bitcoin</h4>
         </div>
 
-        <div> <!-- col -->
-            icon
+        <div class="col col-features"> <!-- col -->
+            <i class="fas fa-chess-queen fa-4x"></i>
             <h4>text</h4>
         </div>
     </div>
@@ -60,41 +70,55 @@
 </section>
 <!-- featerues end -->
 
+
+
 <!-- Testimonials Start -->
-<section>
-    <div> <!-- Testimonials 1 -->
-        <h2>text</h2>
-        <img src="">
+<section id="testimonials">
+    <div class=" col col-testimonials"> <!-- Testimonials 1 -->
+        <h2 class="color_headings">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</h2>
+        <img src="img/Girl 1.png" class="avatar">
+        <h5>Alina Gomez</h5>
     </div>
-    <div><!-- Testimonials 2 -->
-        <h2>text</h2>
-        <img src="">
+    <div class=" col col-testimonials"><!-- Testimonials 2 -->
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</h2>
+        <img src="img/Guy 1.png" class="avatar">
+        <h5>Zach Thomas</h5>
     </div>
-    <div><!-- Testimonials 3 -->
-        <h2>text</h2>
-        <img src="">
+    <div class=" col col-testimonials"><!-- Testimonials 3 -->
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</h2>
+        <img src="img/Neon.png" class="avatar">
+        <h5>Freddy Prince</h5>
     </div>
 </section>
 <!-- Testimonials end -->
 
+
+
 <!-- Newletter Start -->
-<section>
-    <h3>Heading 3 Newsletter</h3>
+<section id="newsletter">
+    <h3 class="header3">Stay In The Loop</h3>
     <div>
-        name
-        email
-        send button
+        <form action="#">
+            <label for="Name">Name</label>
+            <input type="text" placeholder="type your name" id="Name">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="type your email" id="Email">
+            <input type="submit">
+    </form>
+
     </div>
 </section>
 <!-- Newletter end -->
+
+
 
 <!-- Footer Start -->
 <footer>
     <div>
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
     </div>
-    <div>
-        <p>menu of footer</p>
+    <div id="footer">
+        
     </div>
 </footer>
 <!-- Footer end -->

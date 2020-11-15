@@ -1,23 +1,35 @@
 /* Text Styles */
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo-header{
+    height: 100px;
+    padding: 1em 0.5em;
+}
+
+/* Heading Font */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 8px 0px 8px 0px;
+}
+
 h1{
     color: darkcyan;
     font-size: 3.5em;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+
+h2{color: rgb(243, 238, 236);
 }
-
-h2{color: darksalmon;
-
-}
-h3{color: dodgerblue;
-
+h3{color: rgb(255, 255, 255);
 }
 h4{color: goldenrod;
-
 }
+
 
 P{
     font-size: 21px;
@@ -37,12 +49,115 @@ li{
 
 header{
     background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* links */
+a{}
+
+a:link{
+    text-decoration: none;
+    color: rgb(236, 217, 39);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+a:active{
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: tomato;
+}
+
+section{
+    height: 600px;
+    /* border: teal 2px solid; */
+    padding: 2%;
+    /* border: 4px solid lightblue; */
+    display: flex;
+    
+
+}
+
+div{
+    display: flex;
+
 }
 
 
-/* Text styles end */
 
-/*
-div{
-    padding: 30px;
-}*/
+#hero{
+    background-image: url("../img/joseph-ngabo-CtRUx7gEeZs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+#features{
+    flex-direction: column;
+    text-align: center;
+    background-color: #FED9B7;
+    height: 250px;
+}
+.color_headings {
+    color: lightslategrey;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.col-features{
+    /* flex-direction: column; */
+    align-items: center;
+    flex-grow: 1;
+}
+
+#newsletter{
+    flex-direction: column;
+    align-items: center;
+    background-color: #F07167;
+    height: 150px;
+}
+
+.header3{
+    padding: inherit;
+}
+
+.col-testimnonials{
+   
+}
+
+.row-features{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: navy;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
