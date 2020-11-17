@@ -83,7 +83,9 @@ section{
     /* border: teal 2px solid; */
     padding: 2%;
     /* border: 4px solid lightblue; */
+    max-width: 1280px;
     display: flex;
+    margin: 0%;
     
 
 }
@@ -101,6 +103,7 @@ div{
     background-position: center;
     height: 100vh;
     text-align: center;
+    
 }
 
 
@@ -109,6 +112,7 @@ div{
     text-align: center;
     background-color: #FED9B7;
     height: 250px;
+    border-radius: 50%;
 }
 .color_headings {
     color: lightslategrey;

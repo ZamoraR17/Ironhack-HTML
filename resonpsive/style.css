@@ -1,0 +1,55 @@
+
+/* this is for mobile  */
+    body{
+        background-color: lightslategrey;
+        font-family: 'Roboto', sans-serif;
+        padding: 3%;
+    }
+
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 4rem;
+    }
+
+    h3{
+        font-family: 'Roboto', sans-seriff;
+    }
+
+
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+
+
+@media only screen and (min-width: 600px) {
+    /* this is for tablet  */
+    body{
+        background-color: mediumvioletred;
+    }
+    h1{
+        font-size: 6rem;
+    }
+    h3{
+        font-size: 2em;
+    }
+}
+
+
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+
+
+@media only screen and (min-width: 768px) {
+    /* this is for desktop  */
+    body{
+        background-color: teal;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h3{
+        font-size: 3em;
+    }
+
+}
