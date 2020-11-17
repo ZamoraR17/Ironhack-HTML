@@ -153,7 +153,15 @@ input{
 
 footer{
     display: flex;
+    padding: 5%;
     justify-content: center;
+    flex-direction: column;
+
+}
+
+.row-footer{
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .avatar{
