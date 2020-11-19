@@ -30,6 +30,13 @@ h3{color: rgb(255, 255, 255);
 h4{color: goldenrod;
 }
 
+img{
+    /* filter: blur(5px); */
+    /* filter: contrast(25%); */
+    filter: saturate(120%);
+    /* filter: opacity(75%); */
+}
+
 
 P{
     font-size: 21px;
@@ -112,7 +119,7 @@ div{
     text-align: center;
     background-color: #FED9B7;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 .color_headings {
     color: lightslategrey;

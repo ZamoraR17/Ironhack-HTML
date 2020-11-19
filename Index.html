@@ -18,7 +18,17 @@
 
 <!-- Javascript -->
 <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin=“anonymous”></script>
-    <!-- Link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+<!-- Link -->
 
 
 </head>
@@ -41,6 +51,7 @@
 <!-- hero start -->
     <section id="hero">
         <h1 style="color: rgb(221, 221, 221);">Heading 1 text</h1>
+        
     </section>
 <!-- hero end -->
 
@@ -73,7 +84,12 @@
 
 
 <!-- Testimonials Start -->
-<section id="testimonials">
+<div class="slider">
+    <div>I am a slide.</div>
+    <div>I am another slide.</div>
+</div>
+
+<section id="testimonials" class="slider">
     <div class=" col col-testimonials"> <!-- Testimonials 1 -->
         <h2 class="color_headings">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</h2>
         <img src="img/Girl 1.png" class="avatar">
